@@ -20,7 +20,7 @@ Claude Code에서 사용하는 개인 스킬과 플러그인을 모아두는 저
 
 | 이름 | 설명 | 버전 |
 |------|------|------|
-| [create-pr](./plugins/common/create-pr) | 변경사항을 분석하여 커밋(Conventional Commits)하고 프로젝트 템플릿에 맞춰 GitHub PR을 생성합니다. | 1.1.1 |
+| [create-pr](./plugins/common/create-pr) | 변경사항을 분석하여 커밋(Conventional Commits)하고 프로젝트 템플릿에 맞춰 GitHub PR을 생성합니다. | 1.2.0 |
 
 ## 저장소 구조
 
