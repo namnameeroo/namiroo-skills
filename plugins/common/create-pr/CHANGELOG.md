@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-05-12
+
+### Changed
+- **BREAKING**: 트리거 키워드 `/khc-create-pr` → `/create-pr` (plugin name prefix `khc-` 제거)
+- 개인 마켓플레이스(`namnameeroo/namiroo-skills`)로 이전
+- Base 브랜치 기본값을 자동 감지로 변경 (`develop` 존재 시 우선, 없으면 default branch)
+- PR 체크리스트를 변경사항 컨텍스트 기반 동적 구성으로 변경
+  - 기존: 고정 3항목 자동 체크(`[x]`)
+  - 변경: 변경 파일 유형(테스트/UI/API/DB/의존성/문서 등)을 감지해 매번 다르게 생성, 모든 항목 빈 체크박스(`[ ]`)
+- `gh pr create` 코드 블록의 백슬래시 컨티뉴에이션 스타일 통일
+
 ## [1.1.1] - 2026-03-11
 
 ### Changed
