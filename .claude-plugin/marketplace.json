@@ -22,6 +22,23 @@
         "commit",
         "conventional-commits"
       ]
+    },
+    {
+      "name": "session-wrap",
+      "source": "./plugins/common/session-wrap",
+      "description": "세션 종료 시 멀티에이전트로 작업을 분석하고 정리합니다 (요약·학습·다음 일·자동화 후보).",
+      "version": "1.0.0",
+      "author": {
+        "name": "namnameeroo"
+      },
+      "keywords": [
+        "wrap",
+        "session",
+        "summary",
+        "learning",
+        "follow-up",
+        "automation"
+      ]
     }
   ]
 }
