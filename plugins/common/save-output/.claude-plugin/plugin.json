@@ -1,0 +1,5 @@
+{
+  "name": "save-output",
+  "description": "AI 산출물(직전 응답·파일·인라인 본문)을 Notion / Obsidian / Local markdown 중 사전 설정한 저장소에 한 번에 저장합니다.",
+  "version": "1.0.0"
+}
