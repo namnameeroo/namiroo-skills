@@ -22,6 +22,23 @@
         "commit",
         "conventional-commits"
       ]
+    },
+    {
+      "name": "save-output",
+      "source": "./plugins/common/save-output",
+      "description": "AI 산출물을 Notion / Obsidian / Local markdown에 한 번에 저장 (사전 설정한 default 저장소 또는 즉석 override).",
+      "version": "1.0.0",
+      "author": {
+        "name": "namnameeroo"
+      },
+      "keywords": [
+        "save",
+        "output",
+        "notion",
+        "obsidian",
+        "markdown",
+        "capture"
+      ]
     }
   ]
 }
