@@ -22,6 +22,7 @@ Claude Code에서 사용하는 개인 스킬과 플러그인을 모아두는 저
 |------|------|------|
 | [create-pr](./plugins/common/create-pr) | 변경사항을 분석하여 커밋(Conventional Commits)하고 프로젝트 템플릿에 맞춰 GitHub PR을 생성합니다. | 1.2.0 |
 | [save-output](./plugins/common/save-output) | AI 산출물을 Notion / Obsidian / Local markdown에 한 번에 저장합니다. | 1.0.0 |
+| [wiki-agent](./plugins/common/wiki-agent) | 기술 용어를 조사해 페르소나/포맷에 맞춰 설명하고 Obsidian wiki 폴더에 용어 노트로 저장합니다. | 1.0.0 |
 
 ## 저장소 구조
 
