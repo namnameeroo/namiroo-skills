@@ -20,6 +20,7 @@ Claude Code에서 사용하는 개인 스킬과 플러그인을 모아두는 저
 
 | 이름 | 설명 | 버전 |
 |------|------|------|
+| [better-prompt](./plugins/common/better-prompt) | 프롬프트의 목적을 파악해 더 나은 프롬프트로 다듬고, 확인받은 뒤 실행합니다. | 1.0.0 |
 | [create-pr](./plugins/common/create-pr) | 변경사항을 분석하여 커밋(Conventional Commits)하고 프로젝트 템플릿에 맞춰 GitHub PR을 생성합니다. | 1.2.0 |
 | [save-output](./plugins/common/save-output) | AI 산출물을 Notion / Obsidian / Local markdown에 한 번에 저장합니다. | 1.0.0 |
 

@@ -1,0 +1,9 @@
+{
+  "name": "better-prompt",
+  "version": "1.0.0",
+  "description": "프롬프트의 목적을 파악해 더 나은 프롬프트로 다듬고, 확인받은 뒤 실행합니다.",
+  "author": {
+    "name": "namnameeroo"
+  },
+  "license": "MIT"
+}

@@ -8,6 +8,22 @@
   },
   "plugins": [
     {
+      "name": "better-prompt",
+      "source": "./plugins/common/better-prompt",
+      "description": "프롬프트의 목적을 파악해 더 나은 프롬프트로 다듬고, 확인받은 뒤 실행합니다.",
+      "version": "1.0.0",
+      "author": {
+        "name": "namnameeroo"
+      },
+      "keywords": [
+        "prompt",
+        "prompt-engineering",
+        "intent",
+        "rewrite",
+        "claude-code"
+      ]
+    },
+    {
       "name": "create-pr",
       "source": "./plugins/common/create-pr",
       "description": "변경사항을 분석하여 커밋(Conventional Commits)하고 프로젝트 템플릿에 맞춰 GitHub PR을 생성합니다.",
